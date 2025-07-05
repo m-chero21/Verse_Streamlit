@@ -44,6 +44,18 @@ import matplotlib.pyplot as plt
 # ENHANCED DATA MODEL WITH REAL DATA INTEGRATION
 # ==============================================
 
+
+hide_github_style = """
+    <style>
+    .st-emotion-cache-13ln4jf {display: none;}
+    </style>
+"""
+
+st.markdown(hide_github_style, unsafe_allow_html=True)
+
+
+
+
 TENANT_CONFIG = {
     'virtual_analytics': {
         'storage_bucket': 'va-admin-data',
