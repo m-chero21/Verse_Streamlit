@@ -45,13 +45,15 @@ import matplotlib.pyplot as plt
 # ==============================================
 
 
-hide_github_style = """
+
+hide_streamlit_style = """
     <style>
-    .st-emotion-cache-13ln4jf {display: none;}
+    #MainMenu {visibility: hidden;}
+    header [data-testid="stToolbar"] {visibility: hidden;}
     </style>
 """
 
-st.markdown(hide_github_style, unsafe_allow_html=True)
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
 
