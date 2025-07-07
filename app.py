@@ -1005,7 +1005,7 @@ def render_claim_distribution(data):
         y=y_metric,
         title=f"Claim Distribution by {category}",
         hover_data=[y_metric],
-        color=category
+        color=category,
         width=1000,   # Increase width in pixels
         height=600    # Increase height in pixels
     )
