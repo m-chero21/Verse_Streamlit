@@ -2003,7 +2003,7 @@ def admin_dashboard():
     user_info = st.session_state.user_info
 
     # NEW ENHANCEMENT: Sidebar upgrade
-    logo_path = "C:\\Users\\dkeya\\Documents\\projects\\the Verse\\demo\\logo.png"
+    logo_path = "C:\Users\mkiprono\Downloads\app\client_logo (1).png"
     try:
         st.sidebar.image(logo_path, use_container_width=True)
     except FileNotFoundError:
