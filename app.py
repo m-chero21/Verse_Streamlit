@@ -127,7 +127,7 @@ USER_DB = {
     'broker1': {
         'password': hashlib.sha256('brokerpass'.encode()).hexdigest(),
         'role': 'broker',
-        'tenant': 'minet_brokers',
+        'tenant': 'minet_broker',
         'name': 'Broker User',
         'clients': {
             'Acme Corp': {
