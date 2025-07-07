@@ -2003,7 +2003,7 @@ def admin_dashboard():
     user_info = st.session_state.user_info
 
     # NEW ENHANCEMENT: Sidebar upgrade
-    logo_path = "C:\Users\mkiprono\Downloads\app\logo (3).png"
+    logo_path = r"C:\Users\mkiprono\Downloads\app\logo (3).png"
     try:
         st.sidebar.image(logo_path, use_container_width=True)
     except FileNotFoundError:
@@ -2564,7 +2564,7 @@ def broker_underwriter_dashboard(user_info):
     log_audit_event(user_info['name'], "broker_login")
 
     # NEW ENHANCEMENT: Broker-specific logo
-    logo_path = "C:\Users\mkiprono\Downloads\app\logo (3).png"  # Broker logo
+    logo_path = r"C:\Users\mkiprono\Downloads\app\logo (3).png"  # Broker logo
     try:
         st.sidebar.image(logo_path, use_container_width=True)
     except FileNotFoundError:
@@ -2624,7 +2624,7 @@ def client_dashboard(user_info):
     log_audit_event(user_info['name'], "client_login")
 
     # NEW ENHANCEMENT: Client-specific logo
-    client_logo_path = "C:\Users\mkiprono\Downloads\app\client_logo (1).png"
+    client_logo_path = r"C:\Users\mkiprono\Downloads\app\client_logo (1).png"
     try:
         st.sidebar.image(client_logo_path, use_container_width=True)
     except FileNotFoundError:
