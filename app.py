@@ -2562,7 +2562,7 @@ def render_client_management(user_info):
                 st.session_state.show_update_plan = False
 
 def broker_underwriter_dashboard(user_info):
-    st.title(f"The Verse - {user_info['tenant'].title()} Dashboard")
+    st.title(f"Broker Dashboard")
     log_audit_event(user_info['name'], "broker_login")
 
     # NEW ENHANCEMENT: Broker-specific logo
