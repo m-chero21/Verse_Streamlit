@@ -2677,7 +2677,7 @@ def client_dashboard(user_info):
         st.image("https://via.placeholder.com/600x200?text=AGENTIC+AI+DASHBOARD")
 
 def render_client_claims_overview(user_info):
-    st.header(f"{user_info['client_org']} Claims Overview")
+    st.header("Claims Overview")
     log_audit_event(user_info['name'], "client_claims_accessed")
 
     if st.session_state.claims_data is None:
