@@ -127,7 +127,7 @@ USER_DB = {
     'broker1': {
         'password': hashlib.sha256('brokerpass'.encode()).hexdigest(),
         'role': 'broker',
-        'tenant': 'acme_brokers',
+        'tenant': 'minet_brokers',
         'name': 'Broker User',
         'clients': {
             'Acme Corp': {
@@ -163,8 +163,8 @@ USER_DB = {
     'acme_admin': {
         'password': hashlib.sha256('acme123'.encode()).hexdigest(),
         'role': 'client',
-        'tenant': 'acme_brokers',
-        'client_org': 'Acme Corp',
+        'tenant': 'minet_brokers',
+        'client_org': 'Safaricom Corp',
         'name': 'Acme Admin'
     },
     'initech_finance': {

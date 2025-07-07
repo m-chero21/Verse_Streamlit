@@ -1,0 +1,8 @@
+{"timestamp": "2025-07-07T07:06:03.116541", "user": "broker1", "action": "login_success", "target": null, "ip": ""}
+{"timestamp": "2025-07-07T07:06:03.452632", "user": "Broker User", "action": "broker_login", "target": null, "ip": ""}
+{"timestamp": "2025-07-07T07:07:17.543215", "user": "acme_admin", "action": "login_success", "target": null, "ip": ""}
+{"timestamp": "2025-07-07T07:07:17.853867", "user": "Acme Admin", "action": "client_login", "target": null, "ip": ""}
+{"timestamp": "2025-07-07T07:07:17.990681", "user": "Acme Admin", "action": "client_claims_accessed", "target": null, "ip": ""}
+{"timestamp": "2025-07-07T07:09:10.152232", "user": "acme_admin", "action": "login_success", "target": null, "ip": ""}
+{"timestamp": "2025-07-07T07:09:10.419713", "user": "Acme Admin", "action": "client_login", "target": null, "ip": ""}
+{"timestamp": "2025-07-07T07:09:10.447621", "user": "Acme Admin", "action": "client_claims_accessed", "target": null, "ip": ""}
