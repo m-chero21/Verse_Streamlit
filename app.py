@@ -2622,7 +2622,7 @@ def broker_underwriter_dashboard(user_info):
 # ==============================================
 
 def client_dashboard(user_info):
-    st.title(f"The Verse - {user_info['client_org']} Portal")
+    st.title("Client Dashboard")
     log_audit_event(user_info['name'], "client_login")
 
     # NEW ENHANCEMENT: Client-specific logo
